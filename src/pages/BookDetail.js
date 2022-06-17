@@ -1,5 +1,6 @@
 import Outline from "../components/Outline";
 import classes from "./BookDetail.module.css";
+import Comment from "../components/Comment";
 
 const BookDetail = () => {
   return (
@@ -35,6 +36,13 @@ const BookDetail = () => {
           آشکار و جهنم صرفاً معتبر روی زمین، و حتی تصور یک روح جاودان فقط راهی
           بود برای اجتناب از رودررویی با سفر بی‌بازگشت‌مان به ناکجا. خجالت‌آور
           است که آدم تا چه حد می‌تواند در اشتباه باشد.
+        </div>
+        <div className={classes.commentsBox}>
+          <div className={classes.commentsHead}>نظرات کاربران</div>
+          <Comment />
+          <Comment />
+          <Comment />
+          <Comment />
         </div>
       </div>
     </>
