@@ -1,0 +1,17 @@
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.mainWrapper {
+  box-sizing: border-box;
+  margin: 15px 0;
+  width: 50%;
+  direction: rtl;
+  text-align: right;
+  color: #333;
+}
+.description {
+  text-align: justify;
+  font-size: small;
+  line-height: 1.7rem;
+}
